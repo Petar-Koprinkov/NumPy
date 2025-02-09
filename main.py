@@ -176,9 +176,17 @@ Find 2, 3, 11, 12, 15, 15 in 'my_matrix'
 # print(type(arr[0, 0, 0]))
 # print(type(arr[1, 0, 2]))
 
+# a = np.ones((3,5), dtype='int64')
+# print(a)
 
+# b = np.full((3, 2, 5), 69, dtype='int64')
+# print(b)
 
-
+# c = np.arange(0, 1005, 5)
+# print(c)
+#
+# d = np.arange(0, 1005)
+# print(d)
 
 
 
