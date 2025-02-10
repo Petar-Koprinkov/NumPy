@@ -334,3 +334,6 @@ Importing and Exporting array
 
 # a = np.loadtxt('my_matrix.txt', delimiter=',').astype(int)
 # print(a)
+#
+# a = np.genfromtxt('my_matrix.txt', delimiter=',').astype(int)
+# print(a)
