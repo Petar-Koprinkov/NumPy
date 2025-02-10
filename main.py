@@ -381,3 +381,49 @@ Sorting array
 # a = np.sort(a_mul, axis=-1)
 # b = np.sort(a_mul, axis=0)
 # print(a)
+
+"""
+Sum of columns and rows
+"""
+
+# a = np.full((3, 4), 9)
+# a += 1
+# print(a)
+# print(np.sum(a, axis=1))
+# print(np.sum(a, axis=0))
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+
+# print(a.sum())
+# print(np.prod(a))
+# print(a.prod())
+# print(np.mean(a))
+# print(np.max(a))
+# print(np.min(a))
+# print(a.min())
+# print(a.max())
+
+"""
+peak_to_peak -> finding the value of max - min
+"""
+
+# print(np.ptp(a))
+
+"""
+Finding the index of max and min value of matrix
+"""
+
+# print(np.argmax(a))
+# print(np.argmin(a))
+# print(a.argmin())
+# print(a.argmin())
+
+a = np.array(
+    [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+)
