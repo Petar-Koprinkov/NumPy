@@ -337,3 +337,47 @@ Importing and Exporting array
 #
 # a = np.genfromtxt('my_matrix.txt', delimiter=',').astype(int)
 # print(a)
+
+"""
+Exercise
+"""
+
+# a_mul = np.array([
+#     [
+#         [1, 2, 3, 4],
+#         [1, 2, 3, 4],
+#         [1, 2, 3, 4],
+#     ],
+#     [
+#         [5, 6, 7, 8],
+#         [9, 10, 11, 12],
+#         [13, 14, 15, 16],
+#      ],
+# ])
+
+
+# a_mul[:, 1:, 2:] = 9
+# print(a_mul)
+
+
+"""
+Sorting array
+"""
+
+# a_mul = np.array([
+#     [
+#         [1, 2, 3, 4],
+#         [1, 2, 3, 4],
+#         [1, 2, 3, 4],
+#     ],
+#     [
+#         [5, 6, 7, 8],
+#         [89, 10, 11, 12],
+#         [69, 14, 15, 16],
+#      ],
+# ])
+#
+#
+# a = np.sort(a_mul, axis=-1)
+# b = np.sort(a_mul, axis=0)
+# print(a)
