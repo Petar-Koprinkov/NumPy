@@ -261,15 +261,15 @@ Structuring methods
 Concatenate arrays
 """
 
-a1 = np.array(
-    [[1, 2, 3, 4, 5],
-     [6, 7, 8, 9, 10]]
-)
-
-a2 = np.array(
-    [[11, 12, 13, 14, 15],
-     [16, 17, 18, 19, 20]]
-)
+# a1 = np.array(
+#     [[1, 2, 3, 4, 5],
+#      [6, 7, 8, 9, 10]]
+# )
+#
+# a2 = np.array(
+#     [[11, 12, 13, 14, 15],
+#      [16, 17, 18, 19, 20]]
+# )
 
 # print(np.concatenate((a1, a2), axis=0))
 # print(np.concatenate((a1, a2), axis=1))
@@ -288,14 +288,14 @@ Stacking arrays -> Adding dimension
 Split array
 """
 
-a = np.array(
-    [[1, 2, 3, 4, 5, 6],
-     [7, 8, 9, 10, 11, 12],
-     [15, 16, 17, 18, 19, 20],
-     [21, 22, 23, 24, 25, 26],
-     [27, 28, 29, 30, 31, 32],
-     [33, 34, 35, 36, 37, 38]]
-)
+# a = np.array(
+#     [[1, 2, 3, 4, 5, 6],
+#      [7, 8, 9, 10, 11, 12],
+#      [15, 16, 17, 18, 19, 20],
+#      [21, 22, 23, 24, 25, 26],
+#      [27, 28, 29, 30, 31, 32],
+#      [33, 34, 35, 36, 37, 38]]
+# )
 
 # print(np.split(a, 2, axis=0))
 # print(np.split(a, 3, axis=0))
@@ -304,3 +304,33 @@ a = np.array(
 # print(np.split(a, 3, axis=1))
 # print(np.split(a, 6, axis=1))
 # print(np.split(a, 2, axis=1))
+
+
+"""
+NumPy random
+"""
+
+# a = np.random.randint(100, size=(3, 3))
+# print(a)
+
+# b = np.random.randint(100, size=(3, 3, 5))
+# print(b)
+
+# c = np.random.randint(5, 10, (3, 5, 6))
+# print(c)
+
+
+"""
+Importing and Exporting array
+"""
+
+# a = np.array(
+#     [[1, 2],
+#      [3, 4],
+#      [5, 6]]
+# )
+
+# np.savetxt("my_matrix.txt", a, delimiter=',')
+
+# a = np.loadtxt('my_matrix.txt', delimiter=',').astype(int)
+# print(a)
