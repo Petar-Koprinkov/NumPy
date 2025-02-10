@@ -256,3 +256,51 @@ Structuring methods
 # print(a)
 
 # print(a.transpose())
+
+"""
+Concatenate arrays
+"""
+
+a1 = np.array(
+    [[1, 2, 3, 4, 5],
+     [6, 7, 8, 9, 10]]
+)
+
+a2 = np.array(
+    [[11, 12, 13, 14, 15],
+     [16, 17, 18, 19, 20]]
+)
+
+# print(np.concatenate((a1, a2), axis=0))
+# print(np.concatenate((a1, a2), axis=1))
+
+
+"""
+Stacking arrays -> Adding dimension
+"""
+
+# new_a = np.stack((a1, a2))
+# print(new_a)
+# print(new_a.ndim)
+
+
+"""
+Split array
+"""
+
+a = np.array(
+    [[1, 2, 3, 4, 5, 6],
+     [7, 8, 9, 10, 11, 12],
+     [15, 16, 17, 18, 19, 20],
+     [21, 22, 23, 24, 25, 26],
+     [27, 28, 29, 30, 31, 32],
+     [33, 34, 35, 36, 37, 38]]
+)
+
+# print(np.split(a, 2, axis=0))
+# print(np.split(a, 3, axis=0))
+# print(np.split(a, 6, axis=0))
+
+# print(np.split(a, 3, axis=1))
+# print(np.split(a, 6, axis=1))
+# print(np.split(a, 2, axis=1))
