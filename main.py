@@ -188,11 +188,71 @@ Find 2, 3, 11, 12, 15, 15 in 'my_matrix'
 # d = np.arange(0, 1005)
 # print(d)
 
+"""
+NumPy Array vs. Python list
+"""
+
+# l1 = [1, 2, 3, 4, 5]
+# l2 = [6, 7, 8, 9, 10]
+#
+# a1 = np.array(l1)
+# a2 = np.array(l2)
+
+# print(l1 * 5)
+# print(a1 * 5)
+
+# print(l1 + l2)
+# print(a1 + a2)
+
+# print(a1 / a2)
+# print(a1 - a2)
+
+"""
+Array methods
+"""
+
+# a = np.array(
+#     [[1, 2],
+#      [3, 4]]
+# )
+# print(a)
+# print(np.append(a, [69, 68]))
 
 
+# print(np.delete(a, 3))
+# print(np.delete(a, 0, axis=0))
+# print(np.delete(a, 1, axis=0))
 
 
+# print(np.delete(a, 0, axis=1))
+# print(np.delete(a, 1, axis=1))
 
 
+"""
+Structuring methods
+"""
 
+# a = np.array(
+#     [[1, 2, 3, 4, 5],
+#      [6, 7, 8, 9, 10],
+#      [11, 12, 13, 14, 15],
+#      [16, 17, 18, 19, 20]]
+# )
 
+# print(np.shape(a))
+# print(np.reshape(a, (10, 2)))
+# print(np.reshape(a, (2, 10)))
+# new_a = np.reshape(a, (2, 5, 2))
+# print(new_a)
+# print(np.ndim(new_a))
+
+# print(a.reshape((2, 5, 2)))
+# print(a.reshape((2, 10)))
+
+# print(np.reshape(a, (20, )))
+# print(np.reshape(a, (20, 1)))
+
+# print(a.flatten())
+# print(a)
+
+# print(a.transpose())
