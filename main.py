@@ -488,5 +488,22 @@ Find main diagonal
 #
 # b = a.tofile('my_array.txt', sep=', ')
 
+"""
+Transposition
+transpose, swapaxes, T -> swap the axes -> rows become columns and columns become rows
+"""
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+#
+# print(np.swapaxes(a, 0, 1))
+# print(a.transpose(1, 0))
+# print(a.transpose())
+# print(np.transpose(a))
+# print(a.T)
+
 
 
