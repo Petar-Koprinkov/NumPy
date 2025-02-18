@@ -422,8 +422,11 @@ Finding the index of max and min value of matrix
 # print(a.argmin())
 # print(a.argmin())
 
-a = np.array(
-    [[1, 2, 3],
-     [4, 5, 6],
-     [7, 8, 9]]
-)
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+#
+# print(a[[0, 0, 2], [0, 1, 2]])
+# print(a[[0, 1, 2], [0, 1, 2]])
