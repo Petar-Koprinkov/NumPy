@@ -430,3 +430,63 @@ Finding the index of max and min value of matrix
 #
 # print(a[[0, 0, 2], [0, 1, 2]])
 # print(a[[0, 1, 2], [0, 1, 2]])
+
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+#
+# a = a.flatten()
+# print(a)
+#
+#
+# a = a.reshape(9)
+# print(a)
+
+"""
+Repeat values/arrays; Unique method
+"""
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+
+# print(np.repeat(a, 3, axis=0))
+# # print(np.repeat(a, 5, axis=1))
+# print(np.repeat(1, 3))
+# print(np.repeat(10, 10))
+
+# rep_a = np.repeat(a, 3, axis=0)
+# print(rep_a)
+# print(np.unique(rep_a, axis=0))
+
+
+"""
+Find main diagonal
+"""
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+#
+# print(np.diagonal(a))
+# print(np.diagonal(a, offset=1))
+# print(np.diagonal(a, offset=-1))
+
+
+# a = np.array(
+#     [[1, 2, 3],
+#      [4, 5, 6],
+#      [7, 8, 9]]
+# )
+#
+# b = a.tofile('my_array.txt', sep=', ')
+
+
+
